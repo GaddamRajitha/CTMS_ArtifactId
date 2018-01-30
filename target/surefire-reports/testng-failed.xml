@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite_CTMS]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="SamplePackage.UrlLaunching">
+        <methods>
+          <include name="tearDown"/>
+          <include name="GoogleLaunch"/>
+          <include name="tearUp"/>
+        </methods>
+      </class> <!-- SamplePackage.UrlLaunching -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite_CTMS] -->
