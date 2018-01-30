@@ -23,13 +23,14 @@ public class UrlLaunching {
 	{
 
 		System.out.println("Google Website Launched");
-		System.out.println("Differences Check");
+		//System.out.println("Differences Check");
 		
 	}
 	@AfterMethod
 	public void tearDown()
 	{
 		driver.quit();
+		
 	}
 	
 
